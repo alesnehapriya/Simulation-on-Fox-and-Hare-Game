@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="828.0" prefWidth="1111.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controller.game">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="102.0" layoutY="82.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="162.0" layoutY="82.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="222.0" layoutY="82.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="282.0" layoutY="82.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="342.0" layoutY="82.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="402.0" layoutY="82.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="462.0" layoutY="82.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="522.0" layoutY="82.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="102.0" layoutY="142.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f31" height="60.0" layoutX="102.0" layoutY="202.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="102.0" layoutY="262.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="102.0" layoutY="322.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="102.0" layoutY="382.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="162.0" layoutY="142.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="102.0" layoutY="442.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="102.0" layoutY="502.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="222.0" layoutY="142.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="282.0" layoutY="142.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f31" height="60.0" layoutX="342.0" layoutY="142.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="402.0" layoutY="142.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="462.0" layoutY="142.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="522.0" layoutY="142.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="162.0" layoutY="202.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="162.0" layoutY="262.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f31" height="60.0" layoutX="162.0" layoutY="322.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f31" height="60.0" layoutX="162.0" layoutY="382.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="162.0" layoutY="442.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="162.0" layoutY="502.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="222.0" layoutY="202.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f31" height="60.0" layoutX="222.0" layoutY="262.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="222.0" layoutY="322.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="222.0" layoutY="382.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="222.0" layoutY="442.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="222.0" layoutY="502.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="282.0" layoutY="202.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="282.0" layoutY="262.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="282.0" layoutY="322.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="282.0" layoutY="382.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="282.0" layoutY="502.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f31" height="60.0" layoutX="282.0" layoutY="442.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="342.0" layoutY="382.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f31" height="60.0" layoutX="342.0" layoutY="322.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="342.0" layoutY="262.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="342.0" layoutY="202.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="462.0" layoutY="262.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f31" height="60.0" layoutX="402.0" layoutY="262.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="462.0" layoutY="202.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="402.0" layoutY="202.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="462.0" layoutY="322.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="402.0" layoutY="322.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f31" height="60.0" layoutX="522.0" layoutY="262.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="522.0" layoutY="202.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="342.0" layoutY="502.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="342.0" layoutY="442.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="522.0" layoutY="322.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="522.0" layoutY="382.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f31" height="60.0" layoutX="462.0" layoutY="382.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="402.0" layoutY="382.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="462.0" layoutY="442.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f31" height="60.0" layoutX="402.0" layoutY="442.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f31" height="60.0" layoutX="462.0" layoutY="502.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="402.0" layoutY="502.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="522.0" layoutY="502.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="522.0" layoutY="442.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Text fx:id="season" layoutX="734.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SPRING">
+         <font>
+            <Font name="Calibri Bold" size="31.0" />
+         </font>
+      </Text>
+      <Button fx:id="end" layoutX="930.0" layoutY="258.0" mnemonicParsing="false" text="END" />
+      <Text fx:id="R1" layoutX="118.0" layoutY="538.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R5" layoutX="353.0" layoutY="541.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R4" layoutX="293.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R3" layoutX="233.0" layoutY="541.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R2" layoutX="173.0" layoutY="542.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R6" layoutX="413.0" layoutY="541.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="F1" layoutX="473.0" layoutY="541.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R7" layoutX="533.0" layoutY="541.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R13" layoutX="113.0" layoutY="481.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R12" layoutX="173.0" layoutY="481.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R11" layoutX="233.0" layoutY="481.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="F3" layoutX="293.0" layoutY="481.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R10" layoutX="353.0" layoutY="481.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="F2" layoutX="413.0" layoutY="480.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R9" layoutX="473.0" layoutY="481.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R8" layoutX="536.0" layoutY="479.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R14" layoutX="113.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="F5" layoutX="173.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R15" layoutX="233.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R16" layoutX="293.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R17" layoutX="353.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R18" layoutX="413.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="F4" layoutX="473.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R19" layoutX="533.0" layoutY="422.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R25" layoutX="113.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="F7" layoutX="173.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R24" layoutX="233.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R23" layoutX="293.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="F6" layoutX="353.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R22" layoutX="413.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R21" layoutX="473.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R20" layoutX="533.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R26" layoutX="113.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R27" layoutX="173.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="F10" layoutX="233.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R28" layoutX="293.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R29" layoutX="353.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="F9" layoutX="413.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R30" layoutX="473.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="F8" layoutX="533.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="F11" layoutX="113.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R37" layoutX="173.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R36" layoutX="233.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R35" layoutX="293.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R34" layoutX="353.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R33" layoutX="413.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R32" layoutX="473.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R31" layoutX="533.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R38" layoutX="113.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R39" layoutX="173.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R40" layoutX="233.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R41" layoutX="293.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="F12" layoutX="353.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R42" layoutX="413.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R43" layoutX="473.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R44" layoutX="533.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R52" layoutX="113.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R51" layoutX="173.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R50" layoutX="233.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R49" layoutX="293.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R48" layoutX="353.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R47" layoutX="413.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R46" layoutX="473.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="R45" layoutX="533.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnStart" layoutX="925.0" layoutY="26.0" mnemonicParsing="false" onAction="#startGame" text="Rabbit Born" />
+      <Button fx:id="hunt1" layoutX="924.0" layoutY="79.0" mnemonicParsing="false" onAction="#huntAction" text="HUNT" />
+      <Button fx:id="foxBorn" layoutX="922.0" layoutY="140.0" mnemonicParsing="false" onAction="#actionfoxBorn" text="Fox Born/ Migrate/Die" />
+      <Button fx:id="migrate" layoutX="921.0" layoutY="198.0" mnemonicParsing="false" onAction="#migrateOnAction" text="Rabbit Migrate" />
+      <Button fx:id="next" layoutX="1040.0" layoutY="26.0" mnemonicParsing="false" onAction="#nextOnAction" text="NEXT" />
+      <PieChart fx:id="pieChart" layoutX="597.0" layoutY="382.0" />
+   </children>
+</AnchorPane>
